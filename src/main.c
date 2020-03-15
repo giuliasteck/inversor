@@ -42,9 +42,8 @@ void findwords(char *buffer){
 			else
 				j = i - 1;
 
-			//A função é relizada, caractere por caractere,
-			//até que toda a palavra seja invertida, ou seja,
-			//quando os índices que apontavam o fim e o ínicio
+			//A função é rodada até que toda a palavra seja invertida, 
+			//ou seja, quando os índices que apontavam o fim e o ínicio
 			//dela se igualarem
 			while (k<j){
 			reversewords(buffer, &j, &k);
@@ -52,7 +51,7 @@ void findwords(char *buffer){
 			j --;
 			}
 
-	//K é utilizado para marcar o ínicio da palavra
+	//k é setado para marcar o ínicio da palavra
 	//seguinte, para percorre-la posteriormente.
 	k = i + 1;
 
