@@ -51,8 +51,8 @@ void findwords(char *buffer){
 			j --;
 			}
 
-	//k é setado para marcar o ínicio da palavra
-	//seguinte, para percorre-la posteriormente.
+		//k é setado para marcar o ínicio da palavra
+		//seguinte, para percorre-la posteriormente.
 		k = i + 1;
 
 		}
