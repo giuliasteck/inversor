@@ -4,10 +4,6 @@
  * Objetivo: o código tem como objetivo ler uma string inserida
  * pelo usuário e inverter cada palavra dela de forma separada. 
  * Por ex.: Hello World -> olleH dlroW. 
- * i é responsável por percorrer a string até encontrar um espaço 
- * ou o fim dela.
- * j identifica a posição final de uma palavra.
- * k marca o posição inicial da palavra.
  */
 
 #include <stdio.h>
